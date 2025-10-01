@@ -1,0 +1,63 @@
+/* Background and Whitespace around Body */
+body {
+    font-family: "Georgia", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* box & shadow */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings color */
+h2 {
+    color: #0a4155;
+}
+
+h3 {
+    color: #1d868a;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+/* Note desc style */
+.note-description {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #106685;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2aabaf;
+}
+
+.clearBoth {
+    clear: both;
+}
